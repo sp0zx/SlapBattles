@@ -47,7 +47,7 @@ combo.Parent = game.Players.LocalPlayer.Backpack
 
 
 combo.Activated:Connect(function()
-local CurrentCamera = game:GetService("Workspace").CurrentCamera
+--local CurrentCamera = game:GetService("Workspace").Camera
 local RunService = game:GetService("RunService")
 local Mouse = game.Players.LocalPlayer:GetMouse()
 local plr = game.Players.LocalPlayer
